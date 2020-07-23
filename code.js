@@ -114,12 +114,12 @@ console.log(absoluteValue(0) === 0);
 
 function evenOddOrZero(number) {
   // You code here
-  if (number % 2 == 0) {
-    return "Even";
+  if (number == 0) {
+    return "Zero";
   } else if (number % 2 == 1) {
     return "Odd";
-  } else if (number == 0) {
-    return "zero"; // Not sure why this isn't working
+  } else if (number % 2 == 0) {
+    return "Even";
   } else {
     return "Try again!";
   }
